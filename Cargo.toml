@@ -51,9 +51,9 @@ path = "src/day_11/main.rs"
 name = "day_12"
 path = "src/day_12/main.rs"
 
-# [[bin]]
-# name = "day_13"
-# path = "src/day_13/main.rs"
+[[bin]]
+name = "day_13"
+path = "src/day_13/main.rs"
 
 # [[bin]]
 # name = "day_14"
@@ -109,3 +109,4 @@ itertools = "0.13.0"
 ndarray = "0.16.1"
 rangemap = "1.5.1"
 rustc-hash = "2.1.0"
+regex = "1.11.1"
