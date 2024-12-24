@@ -325,7 +325,7 @@ mod test {
         println!("{map}");
         println!();
 
-        for (idx, &dir) in dirs.iter().enumerate() {
+        for (_idx, &dir) in dirs.iter().enumerate() {
             step(&mut map, dir);
         }
 
